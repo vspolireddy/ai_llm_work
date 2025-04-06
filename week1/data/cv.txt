@@ -1,0 +1,55 @@
+
+
+Senior Data Engineer 
+Committed to innovation in data engineering with deep expertise in architecting, deploying, and managing sophisticated data pipelines and infrastructures across variety of platforms.
+Specialize in leveraging cutting-edge technologies and machine learning frameworks to drive data transformation, ingestion, and analytical processes. Excel in developing robust, scalable solutions that streamline data operations, enhance real-time analytics, and support data-driven decision-making. Demonstrated ability in optimizing cloud resources, ensuring cost-efficiency while maintaining high performance and reliability in data workflows.
+Areas of Expertise
+
+Technical Proficiencies
+Spark/Pyspark/Scala Functional Programming | Java/Python Data Analytics | Amazon Web Services (Cloud) | Kubernetes/Knative | AWS Sagemaker/Machine Learning Infrastructure | Data Analytics
+Career Experience
+Blue Cross Blue Shield NC, Remote	08/2022 – 10/2024
+Sr Data Analytics & Platform Engineer
+Built event-driven Kafka pipeline leveraging Confluent Kafka SDK on claims data, pioneering template for development of enterprise microservices on Kubernetes, which included establishing standards for Helm charts and YAML configurations at application level. Crafted numerous Helm charts for deployment across development settings, providing comprehensive infrastructure support encompassing Spark, Kafka, and Cassandra on Kubernetes, ensuring seamless environment setups. 	
+Executed thorough debugging and monitoring protocols for addressing pod failures and clearing stale pods, enhancing system reliability. Spearheaded creation and maintenance of standardized Docker images, pre-equipped with essential frameworks for enterprise-wide utilization, 
+accessible via ECR repository.
+Led significant data migration initiative to Snowflake, employing Azure Databricks for scripting Spark jobs aimed at transferring both structured and unstructured data into database, and adeptly utilized AWS services including S3, DynamoDB, Lambda, and Kinesis, interfaced through Boto3 Python SDK, to streamline cloud-based operations and data handling.
+Gained extensive hands-on expertise in AWS SageMaker and its ancillary services, focusing on infrastructure management and optimization via python AWS lambdas.
+Implemented sophisticated polling service, enabling continuous surveillance and instant communication of cost, operational status, and ML metadata to Data Scientists. This service supports dynamic report generation and delivery through Teams, Email, and Slack, ensuring immediate accessibility of crucial information.
+Built custom Argo Workflows orchestrating  PySpark containers in K8s, allowing for ETL pipelines that supported idempotent and persistent storage.
+
+NIKE(MGB Contract), Remote	08/2021 – 09/2022
+Sr Data Engineer
+Used MetaPipes to build out pipelines for DCA Korea and Japan pipeline. Built container based Python ETL pipelines in Apache Airflow. Built end to end Spark JVM metrics collection UI in Prometheus and Grafana.Adopted 
+
+Used Airflow and custom containerization of python and PySpark images to build out of a coded pipeline amd ran Spark on K8s and EKS
+Built out custom Dags for various pipelines via airflow, which included 100s of tasks and components in complex DAG
+Utilized Metapipes proprietary internal framework and its coded pipeline patterns to successfully built fully coded and python based microservices/etl based containers.
+
+Blue Cross Blue Shield NC, Durham, NC	07/2020 – 08/2021
+Sr Data Analytics & Platform Engineer
+Transformed imperative code jobs in Jupyter notebooks to declarative, OOP-centric Spark code, utilizing pandas/Koalas API and PySpark for enhanced data processing efficiency. Upgraded legacy ETL processes, originally developed in Scala and Python within Dataiku, to cutting-edge, open-source Spark framework, ensuring compatibility with cloud-agnostic Kubernetes ecosystem for broader deployment flexibility. 
+Engineered comprehensive solution by pioneering API in PySpark, adhering to test-driven development principles, and executing Py Spark integrations on Amazon EKS/Kubernetes, including creation of Kubernetes Helm charts for Apache PySpark, Prometheus, and Grafana to streamline data ingestion and job metrics monitoring.
+Adopted PromQL for advanced query formulation and JVM-level metrics collection, while integrating Argo Workflows to automate scheduling and deployment of Spark jobs within Kubernetes environment, emphasizing cloud-agnostic and scalable solutions.
+Lexis Nexis, Raleigh, NC	07/2017 – 06/2020
+Software Engineer III Spark/Cloud
+Architected data pipelines leveraging Scala for construction of both batch and real-time streaming jobs, utilizing Spark and Pyspark Streaming and AWS Kinesis for data flow orchestration. Developed containerized services employing Java, Python, and Scala, and orchestrated containers on Kubernetes using Knative for serverless execution of event-driven data pipelines. Deployed Spark jobs within Kubernetes containers, following Kubernetes Spark operator pattern for efficient job deployment and management. Engaged with AWS services including Lambdas, Kinesis, SQS, and SNS through Python boto3 API for diverse cloud interactions and integrations. Practiced Scala functional programming principles within Spark-based Recommendation System, enhancing algorithm efficiency and system responsiveness. 
+Enhanced computing capabilities by leveraging AWS Elastic Map Reduce (EMR)/Yarn as principal compute engine for Spark jobs, specializing in performance tuning and resource optimization within YARN/EMR clusters.
+Automated scaling and provisioning of EMR clusters via CloudFormation templates, integrated with Jenkins for continuous deployment and operational efficiency.
+Streamlined Kubernetes deployments through formulation and application of templating and Helm charts, ensuring rapid and consistent deployment processes.
+Executed proof of concept (POC) with Knative to evaluate its integration potential and effectiveness within existing data pipeline framework, guiding future architectural decisions.
+Ensured code integrity and facilitated efficient issue resolution by utilizing version control systems for meticulous tracking of code modifications and bug fixes.
+United Health Group (Optum), Raleigh, NC	03/2016 – 11/2017
+Big Data Developer
+Engineered data processing scripts using Pig and Spark for CDC, facilitating raw data ingestion and transformation. Played key role in team that managed MapR 5.2 Hadoop cluster, integrating Talend to enhance Big Data PaaS solutions within architectural framework. 
+Advanced data extraction and transformation processes by designing and implementing Hive and Pig scripts, enriched with custom Python and Java UDFs.
+Optimized job scheduling and management on Hadoop using Talend/TAC, and performed advanced querying and analytical operations using Hbase and Hive databases.
+Fidelity Investments, Raleigh-Durham, NC	07/2014 –08/ 2015
+Java Developer & Summer Intern
+Orchestrated database development activities, employing Oracle, SQL, and PL/SQL for creation of advanced stored procedures and intricate queries. Pioneered object-oriented programming initiatives using Java/J2EE, focusing on extraction of database information, its transformation into JSON format, and subsequent integration into AngularJS-based frontend. 
+Spearheaded development of RESTful web services and leveraged Shell Scripting in implementation of sophisticated data warehousing solutions, showcasing expertise in ETL methodologies and Informatica.
+Crafted and executed Unix scripts for rigorous validation of extensive datasets, comprising millions of rows within CSV files, as integral components of daily batch processing tasks.
+Additional Experience as Application Support Engineer at Bank of America in Charlotte, NC. 	
+Education
+Bachelor of Science in Computer Science, East Carolina University, Greenville, NC
+Master of Science in Data Science Coursework, University of Wisconsin, Madison, WI
