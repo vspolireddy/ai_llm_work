@@ -17,21 +17,21 @@
 
 3. logarthimic expansion of params offerings from gpt1 to gpt 4 117m to 1.76T
 
-transformers, model understands context/relationships between words/tokens
-    a. Early days neural networks were at character level(predict the next character in sequence(small vocab but expects too much from network)...
-    b. Then eventually to next word in sequence from traning "off words", easier to learn but leads to enrormous vocabs with rare words ommited
-    c. breakthrough came where to work with chunks of words(tokens), better handles stems of words
+    transformers, model understands context/relationships between words/tokens
+        a. Early days neural networks were at character level(predict the next character in sequence(small vocab but expects too much from network)...
+        b. Then eventually to next word in sequence from traning "off words", easier to learn but leads to enrormous vocabs with rare words ommited
+        c. breakthrough came where to work with chunks of words(tokens), better handles stems of words
 
 4. different modesl have different tokenizers
 
-context window: total number of tokens that can be examined. orginal prompt and subsequent convos, then the latest input prompt and almost promp... entire convo is passed in again as long prompt and next token its predicting. shakespere all 1.2 million tokens all at one time
+    context window: total number of tokens that can be examined. orginal prompt and subsequent convos, then the latest input prompt and almost promp...  entire convo is passed in again as long prompt and next token its predicting. shakespere all 1.2 million tokens all at one time
 
 
 5. create brochure, on a website, Nike, using relavant links making call to chatgpt mini. 
        a. A system prompt that tells them what task it is performing and what tone it should use
        b. A user prompt the conversation starter that they should reply to
 
-system prompt = "tone or context like say language is spanish"
-user promot = "a conversation start, i.e what website you are looking for, or what format or markdown to return"
+    system prompt = "tone or context like say language is spanish"
+    user promot = "a conversation start, i.e what website you are looking for, or what format or markdown to return"
 
-two calls to LLM one to collect relevant links and one to then to scrape of all of that data to then build a brochure.
+    two calls to LLM one to collect relevant links and one to then to scrape of all of that data to then build a brochure.
