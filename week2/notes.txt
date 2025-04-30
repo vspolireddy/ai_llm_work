@@ -1,0 +1,6 @@
+multi-modal customer support chatbot for an airline. This project integrates various modalities—text, images, and audio—into a cohesive user interface using Gradio. 
+
+Function Calling: Implementing function-calling capabilities to enable the chatbot to perform specific tasks or retrieve information dynamically.
+
+Agent Integration: Incorporating AI agents that can interact with users, understand context, and provide relevant assistance.
+Gradio UI: Utilizing Gradio to build an intuitive and interactive user interface that supports multi-modal interactions.
