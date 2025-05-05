@@ -1,0 +1,37 @@
+Tokenizers
+maps between text and tokens for a particular model
+
+
+1. translates between text and tokens with encode() and decode()
+2. contains a vocab that can include specials tokens to signal information to the llm, like start of promt
+3. can include a chat template that knows how to format a chat message for this model
+llama 3.1 - meta
+phi 3 - microsoft
+Qwen2 - alibaba cloud
+starcoder2 - coding model
+
+
+llama tokenizer
+    <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+    Cutting Knowledge Date: December 2023
+    Today Date: 26 Jul 2024
+
+    You are a helpful assistant<|eot_id|>      <|start_header_id|>user<|end_header_id|>
+
+    Tell a light-hearted joke for a room of Data             Scientists<|eot_id|<|start_header_id|>assistant<|end_header_id|>
+
+
+phi3_tokenizer
+    <|system|>
+    You are a helpful assistant<|end|>
+    <|user|>
+    Tell a light-hearted joke for a room of Data          Scientists<|end|>
+    <|assistant|>
+    
+qwen2_tokenizer   
+    <|im_start|>system
+    You are a helpful assistant<|im_end|>
+    <|im_start|>user
+    Tell a light-hearted joke for a room of Data     Scientists<|im_end|>
+    <|im_start|>assistant
